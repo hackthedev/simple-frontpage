@@ -1,0 +1,45 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards_table {
+    margin-bottom: 150px;
+}
+
+.cards_table td {
+    padding: 40px;
+}
+
+.cards_headline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cards .card_container{
+    width: 250px;
+    width: 250px;
+    height: 350px;
+    overflow-y: auto;
+}
+
+.cards .card_container .icon_one {
+    background-image: url("https://img.icons8.com/ios/452/settings--v2.png");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+
+    border: 0;
+    display: block;
+
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.cards .card_container .text {
+    word-break: break-word;
+    text-align: center;
+}

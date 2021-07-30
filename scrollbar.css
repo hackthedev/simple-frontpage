@@ -1,0 +1,19 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+.woocommerce-loop-category__title .count {
+    background-color: transparent !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #505A69;
+}
